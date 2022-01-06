@@ -103,9 +103,9 @@ class GobangGame(Game):
     @staticmethod
     def display(board):
         n = board.shape[0]
-
+        print(" "*3, end="")
         for y in range(n):
-            print(y, "|", end="")
+            print(y, "", end="")
         print("")
         print(" -----------------------")
         for y in range(n):
